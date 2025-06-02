@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>University Website Design </title>
+    <link rel ="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,300;0,400;0,500;0,600;0,700;1,600&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+
+    <section class="sub-header">
+        <nav>
+       <a href="about.html.html"> <img src="logo.png"></a>
+
+            <div class="nav-links" id="navLinks">
+           <i  class="fa-solid fa-xmark" onclick="showMenu()"></i>
+                <ul>
+                    <li> <a href="http://127.0.0.1:3000/index.html">HOME</a></li>
+                    <li> <a href="http://127.0.0.1:3000/about.html">ABOUT</a></li>
+                    <li> <a href="http://127.0.0.1:3000/course.html">COURSE</a></li>
+                    <li> <a href="http://127.0.0.1:3000/blog.html">BLOG</a></li>
+                    <li> <a href="http://127.0.0.1:3000/contact.html">CONTACT</a></li>
+                </ul>
+            </div>
+             <i  class="fa-solid fa-bars"  onclick="hideMeenu()"></i>
+        </nav>
+      <h1>About Us </h1>
+    </div>
+    </section>
+    
+<!---------ABOUT US CONTENT --------------->
+<section class="about-us">
+
+    <div class="row">
+
+        <div class="about-col">
+
+         <h1> We Are The Worlds Largest University</h1>  
+         <p>Our diverse academic programs are designed to meet the evolving needs of students and industries. With a dedicated faculty, state-of-the-art infrastructure, and a student-centered approach, we nurture intellectual growth, creativity, and critical thinking.
+         </p> 
+
+         <a href="https://www.google.com/search?q=world%27s+biggest+university&oq=world&gs_lcrp=EgZjaHJvbWUqDggAEEUYJxg7GIAEGIoFMg4IABBFGCcYOxiABBiKBTISCAEQLhhDGNQCGLEDGIAEGIoFMgYIAhBFGEAyBggDECMYJzISCAQQLhhDGNQCGLEDGIAEGIoFMhIIBRAuGEMY1AIYsQMYgAQYigUyDAgGEC4YQxiABBiKBTIGCAcQRRg80gEIMzg3MGowajeoAgCwAgA&sourceid=chrome&ie=UTF-8" class="hero-btn red-btn"> EXPLORE NOW </a>
+
+        </div>
+
+
+        <div class="about-col">
+            <img src="about.jpg">
+        </div>
+
+    </div>
+
+
+
+
+
+</section>
+
+    
+<!----------footer--------------->
+<section class="footer">
+    <h1>Our Vision</h1>
+    <p> Founded with the vision to empower learners through quality education our institution nurtures talent <br> inspires creativity, and builds future leaders</p>
+    <div class="icons">
+    <i class="fa-brands fa-facebook-f"></i>
+    <i class="fa-brands fa-twitter"></i>
+   <i class="fa-brands fa-square-instagram"></i>
+    <i class="fa-brands fa-linkedin"></i>
+    </div>
+<p>Made With <i class="fa-regular fa-heart"></i>  Gauranshi Mahawar</p>
+
+</section>
+    <!----------java script toggle ------------>
+    <script>
+         var navLinks = document.getElementById("navLinks");
+           function hideMeenu(){
+            navLinks.style.right = "0";
+        }
+          function showMenu(){
+            navLinks.style.right = "-200px";
+        }
+
+
+    </script>
+
+
+    
+</body>
+</html>

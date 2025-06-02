@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>University Website Design </title>
+    <link rel ="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,300;0,400;0,500;0,600;0,700;1,600&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+
+    <section class="sub-header">
+        <nav>
+        <a href="about.html.html"> <img src="logo.png"></a>
+            <div class="nav-links" id="navLinks">
+          <i  class="fa-solid fa-xmark" onclick="showMenu()"></i>
+                <ul>
+                    <li> <a href="http://127.0.0.1:3000/index.html">HOME</a></li>
+                    <li> <a href="http://127.0.0.1:3000/about.html">ABOUT</a></li>
+                    <li> <a href="http://127.0.0.1:3000/course.html">COURSE</a></li>
+                    <li> <a href="http://127.0.0.1:3000/blog.html">BLOG</a></li>
+                    <li> <a href="http://127.0.0.1:3000/contact.html">CONTACT</a></li>
+                </ul>
+            </div>
+             <i  class="fa-solid fa-bars"  onclick="hideMeenu()"></i>
+        </nav>
+        <div class="heading">
+      <h1> Contact Us  </h1>
+      </div>
+    </div>
+    </section>
+    
+<!---------contact us --------------->
+<section class="location">
+  <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d58039.146365786844!2d73.7048721!3d24.6082862!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3967e56550a14411%3A0xdbd8c28455b868b0!2sUdaipur%2C%20Rajasthan!5e0!3m2!1sen!2sin!4v1748767643347!5m2!1sen!2sin" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+</section>
+<section class="contact_us">
+    <div class="row">
+        <div class="contact-col">
+            <div>
+                <i class="fa-solid fa-house"></i>
+                <span>
+                    <h5> Biggest University</h5>
+                    <p>
+                        udaipur , xyz
+                    </p>
+                </span>
+            </div>
+
+
+             <div>
+                <i class="fa-solid fa-phone"></i>
+                <span>
+                    <h5>126574483168</h5>
+                    <p>
+                       Monday to saturday, 10 am to 6 pm  </p>
+                   
+                </span>
+            </div>
+
+             <div>
+               <i class="fa-solid fa-envelope"></i>
+                <span>
+                    <h5>info@easytutorialspro.com</h5>
+                    <p>
+                       Email us your query  </p>
+                  
+                </span>
+            </div>
+
+           
+
+
+
+
+
+
+        </div>
+        <div class="contact-col">
+            <form action="form-handler.php" method="post">
+                <input type="text" name="name" placeholder="Enter Your Name " required>
+                  <input type="Email" name="email" placeholder="Enter Email Address " required>
+                    <input type="text"  name="subject" placeholder="Enter Your Subject " required>
+                    <textarea rows="5" name="Message" placeholder="Enter Your Message" required> </textarea>
+                    <button type="submit" class="hero-btn red-btn"> Send Message</button>
+            </form>
+
+
+
+
+        </div>
+    </div>
+</section>
+
+    
+<!----------footer--------------->
+<section class="footer">
+    <h1>Our Vision</h1>
+    <p> Founded with the vision to empower learners through quality education our institution nurtures talent <br> inspires creativity, and builds future leaders</p>
+    <div class="icons">
+    <i class="fa-brands fa-facebook-f"></i>
+    <i class="fa-brands fa-twitter"></i>
+   <i class="fa-brands fa-square-instagram"></i>
+    <i class="fa-brands fa-linkedin"></i>
+    </div>
+<p>Made With <i class="fa-regular fa-heart"></i>  Gauranshi Mahawar</p>
+
+</section>
+    <!----------java script toggle ------------>
+    <script>
+        var navLinks = document.getElementById("navLinks");
+           function hideMeenu(){
+            navLinks.style.right = "0";
+        }
+          function showMenu(){
+            navLinks.style.right = "-200px";
+        }
+
+
+    </script>
+
+
+    
+</body>
+</html>
